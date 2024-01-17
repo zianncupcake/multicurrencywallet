@@ -1,0 +1,183 @@
+{
+  "Users": [
+    {
+      "FirstName": "testing1",
+      "LastName": "testing11",
+      "PhoneNumber": "10111-1111",
+      "Username": "testing1",
+      "Password": "pass",
+      "id": "08d2"
+    },
+    {
+      "id": "b27a",
+      "FirstName": "test2",
+      "LastName": "test22",
+      "PhoneNumber": "2222-2222",
+      "Username": "test2",
+      "Password": "pass"
+    },
+    {
+      "id": "48ce",
+      "FirstName": "test11",
+      "LastName": "test22",
+      "PhoneNumber": "1234-1234",
+      "Address": "testyergfrg",
+      "Username": "test11",
+      "Password": "pass"
+    }
+  ],
+  "Wallets": [
+    {
+      "id": "f58b",
+      "Name": "SGD Wallet",
+      "Currency": "SGD",
+      "Balance": 1000,
+      "UserID": "b27a"
+    },
+    {
+      "Name": "USD Wallet",
+      "Balance": 6.9,
+      "Currency": "USD",
+      "UserID": "b27a",
+      "id": "8aa2"
+    },
+    {
+      "Name": "JPY Wallet",
+      "Balance": 9000,
+      "Currency": "JPY",
+      "UserID": "b27a",
+      "id": "8a2e"
+    },
+    {
+      "id": "ef65",
+      "Name": "SGD Wallet 2",
+      "Currency": "SGD",
+      "Balance": 400,
+      "UserID": "b27a"
+    }
+  ],
+  "ExchangeRates": [
+    {
+      "id": 1,
+      "Base": "SGD",
+      "Target": "USD",
+      "Rate": 0.75
+    },
+    {
+      "id": 2,
+      "Base": "USD",
+      "Target": "SGD",
+      "Rate": 1.33
+    },
+    {
+      "id": 3,
+      "Base": "SGD",
+      "Target": "JPY",
+      "Rate": 109.13
+    },
+    {
+      "id": 4,
+      "Base": "JPY",
+      "Target": "SGD",
+      "Rate": 0.0092
+    },
+    {
+      "id": 5,
+      "Base": "USD",
+      "Target": "JPY",
+      "Rate": 145.2
+    },
+    {
+      "id": 6,
+      "Base": "JPY",
+      "Target": "USD",
+      "Rate": 0.0069
+    }
+  ],
+  "Transactions": [
+    {
+      "id": "2ff2",
+      "SourceWallet": "8a2e",
+      "TargetWallet": "8aa2",
+      "SourceAmount": 1000,
+      "TargetAmount": 6.9,
+      "SourceCurrency": "JPY",
+      "TargetCurrency": "USD",
+      "TransactionDate": "Fri Jan 12 2024 20:50:21"
+    }
+  ],
+  "Spendings": [
+    {
+      "id": "1234",
+      "Description": "Breados",
+      "WalletID": "f58b",
+      "WalletName": "SGD Wallet",
+      "WalletCurrency": "SGD",
+      "Category": "F&B",
+      "Amount": 2,
+      "UserID": "b27a",
+      "TransactionDate": "Fri Jan 12 2024 20:50:21",
+      "ShortenedDate": "Jan 12"
+    },
+    {
+      "id": "4321",
+      "Description": "Gym",
+      "WalletID": "f58b",
+      "WalletName": "SGD Wallet",
+      "WalletCurrency": "SGD",
+      "Category": "Recurring Payments",
+      "Amount": 100,
+      "UserID": "b27a",
+      "TransactionDate": "Sat Jan 13 2024 20:50:21",
+      "ShortenedDate": "Jan 13"
+    },
+    {
+      "id": "1a2b",
+      "Description": "Japan Hotel",
+      "WalletID": "8a2e",
+      "WalletName": "JPY Wallet",
+      "WalletCurrency": "JPY",
+      "Category": "Travel",
+      "Amount": 5000,
+      "UserID": "b27a",
+      "TransactionDate": "Sun Jan 14 2024 20:50:21",
+      "ShortenedDate": "Jan 14"
+    },
+    {
+      "id": "1a3b",
+      "Description": "Plane Ticket",
+      "WalletID": "f58b",
+      "WalletName": "SGD Wallet",
+      "WalletCurrency": "SGD",
+      "Category": "Travel",
+      "Amount": 400,
+      "UserID": "b27a",
+      "TransactionDate": "Mon Jan 15 2024 20:50:21",
+      "ShortenedDate": "Jan 15"
+    },
+    {
+      "id": "1a4b",
+      "Description": "Starbucks",
+      "WalletID": "f58b",
+      "WalletName": "SGD Wallet",
+      "WalletCurrency": "SGD",
+      "Category": "F&B",
+      "Amount": 10,
+      "UserID": "b27a",
+      "TransactionDate": "Tues Jan 16 2024 20:50:21",
+      "ShortenedDate": "Jan 16"
+    },
+    {
+      "id": "1a4b",
+      "Description": "Burger King",
+      "WalletID": "f58b",
+      "WalletName": "SGD Wallet",
+      "WalletCurrency": "SGD",
+      "Category": "F&B",
+      "Amount": 20,
+      "UserID": "b27a",
+      "TransactionDate": "Tues Jan 16 2024 21:50:21",
+      "ShortenedDate": "Jan 16"
+    }
+  ]
+}
