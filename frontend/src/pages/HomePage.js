@@ -90,6 +90,7 @@ const HomePage = () => {
           <Col md={6} style={{paddingLeft:"0px", paddingRight:"10px"}}>
             <BucketsComponent
               buckets={buckets}
+              userid={id}
             />
           </Col>
           <Col md={6} style={{paddingLeft:"10px", paddingRight:"0px"}}>

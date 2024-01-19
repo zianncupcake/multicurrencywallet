@@ -46,20 +46,26 @@ import {
     
   
     }
-
+    
+    const navigate = useNavigate()
+    const goBack = () => {
+      // This will go back to the previous page
+      navigate(-1);
+    };
+  
     
 
   
     return (
       <Container>
-        <Row className="justify-content-md-center mt-5">
-          {/* <Col md={2}>
-            <Link to="/dashboard" className="btn btn-primary my-3">
-              Go Back
-            </Link>
-          </Col> */}
+        <Row className="justify-content-md-center mt-5 p-5">
+        <Col md={2}>
+            <Button className="btn btn-light my-3" onClick={goBack}>
+              Back to login
+            </Button>
+          </Col>
           <Col md={9}>
-            <h1>Register With Us!</h1>
+            <h1 className="text-muted">Register With Us!</h1>
             <Form onSubmit={handleSubmit}>
             <Form.Group className="mb-3 mt-3">
                 <Form.Label>First Name</Form.Label>
@@ -120,7 +126,7 @@ import {
               </Form.Group>
               <Form.Group>
               <Alert variant="success" className="mt-3" show={success}>
-               Registration successful
+               Registration successful. You can login now
               </Alert>
 
               </Form.Group>

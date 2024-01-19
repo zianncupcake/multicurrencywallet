@@ -22,7 +22,7 @@ const SpendingsComponent = ({ spendings, userid, wallets }) => {
           <h2 className="text-muted"> Transactions </h2>
         </Col>
         <Col xs={4} className="text-end">
-          <a href="#" className="text-muted">View All {'>'}</a>
+          <a href={`/transactions/${userid}`}className="text-muted">View All {'>'}</a>
         </Col>
       </Row>    
       <ListGroup>

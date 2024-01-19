@@ -7,6 +7,9 @@ import TransferPage from './pages/TransferPage';
 import HomePage from './pages/HomePage';
 import AllWalletsPage from './pages/AllWalletsPage';
 import AllBucketsPage from './pages/AllBucketsPage';
+import AllTransactionsPage from './pages/AllTransactionsPage';
+import ProfilePage from './pages/ProfilePage';
+import LoginPage from './pages/LoginPage';
 
 function App() {
   return (
@@ -19,6 +22,9 @@ function App() {
       <Route path="/home/:id" element={<HomePage />} />
       <Route path="/wallets/:id" element={<AllWalletsPage />} />
       <Route path="/buckets/:id" element={<AllBucketsPage />} />
+      <Route path="/transactions/:id" element={<AllTransactionsPage />} />
+      <Route path="/profile/:id" element={<ProfilePage />} />
+      <Route path="/" element={<LoginPage />} />
 
 
       {/* <Route path="/edituserdetails/:id" element={<EditUserDetailsPage />} />

@@ -16,7 +16,7 @@ import { LinkContainer } from "react-router-bootstrap";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
-const BucketsComponent = ({ buckets }) => {
+const BucketsComponent = ({ buckets, userid }) => {
   console.log("buckets in component", buckets);
   const chunkSize = 3;
   const navigate = useNavigate();
@@ -29,7 +29,7 @@ const BucketsComponent = ({ buckets }) => {
           <h2 className="text-muted">Buckets </h2>
         </Col>
         <Col xs={4} className="text-end">
-          <a href="#" className="text-muted">
+          <a href={`/buckets/${userid}`} className="text-muted">
             View All {">"}
           </a>
         </Col>

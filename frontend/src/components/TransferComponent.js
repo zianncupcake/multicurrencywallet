@@ -159,16 +159,16 @@ const TransferComponent = ({
 
   return (
     <Container>
-      <Row className="justify-content-md-center mt-5">
+      <Row className="justify-content-md-center mt-5 p-5">
         <Col md={2}>
-            <Button className="btn btn-primary my-3" onClick={goBack}>
+            <Button className="btn btn-light my-3" onClick={goBack}>
               Back to Dashboard
             </Button>
           </Col>
         <Col md={9}>
-          <h1>{wallet.Name}</h1>
+          <h1 className="text-muted">{wallet.Name}</h1>
 
-          <div className="mb-3 mt-3">
+          <div className="mb-3 mt-5">
             <p>
               <strong>Exisiting Balance:</strong> {wallet.Currency}{" "}
               {wallet.Balance}
