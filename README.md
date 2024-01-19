@@ -23,6 +23,12 @@ https://github.com/zianncupcake/multicurrencywallet/assets/100258157/0ff9182a-ac
 
 https://github.com/zianncupcake/multicurrencywallet/assets/100258157/de708cbe-76ce-4acd-a432-4f53a67c5117
 
+## transfer
+
+
+https://github.com/zianncupcake/multicurrencywallet/assets/100258157/86073517-bd30-4b0e-85bd-46ddb6eafca1
+
+
 ## buckets
 
 
